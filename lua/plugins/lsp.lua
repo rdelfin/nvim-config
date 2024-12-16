@@ -6,7 +6,13 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        rust_analyzer = {},
+        rust_analyzer = {
+          cargo = {
+            buildScripts = {
+              enable = true,
+            },
+          },
+        },
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
       },
