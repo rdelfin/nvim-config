@@ -19,7 +19,7 @@ return {
   },
   {
     "saghen/blink.cmp",
-    build = "cargo +nightly-2025-07-27 build --release",
+    build = "cargo +nightly build --release",
     opts = {
       completion = {
         trigger = {
