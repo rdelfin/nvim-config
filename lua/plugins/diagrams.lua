@@ -1,0 +1,20 @@
+return {}
+-- return {
+--   "3rd/diagram.nvim",
+--   dependencies = {
+--     { "3rd/image.nvim", opts = {} }, -- you'd probably want to configure image.nvim manually instead of doing this
+--   },
+--   opts = { -- you can just pass {}, defaults below
+--     events = {
+--       render_buffer = { "InsertLeave", "BufWinEnter", "TextChanged" },
+--       clear_buffer = { "BufLeave" },
+--     },
+--     renderer_options = {
+--       mermaid = {
+--         background = "transparent",
+--         theme = "dark",
+--         cli_args = nil,
+--       },
+--     },
+--   },
+-- }
